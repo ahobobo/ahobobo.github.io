@@ -5,4 +5,4 @@ title: About
 
 # About Me
 
-this is the about page.
+Hobby artist, occasional GM and coder. 
