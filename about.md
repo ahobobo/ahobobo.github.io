@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: about-me
 title: About
 ---
 
 # About Me
 
-Hobby artist, occasional GM and coder. 
+Coder, artist, and GM.

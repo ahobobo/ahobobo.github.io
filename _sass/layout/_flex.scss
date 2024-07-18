@@ -1,0 +1,15 @@
+@use './../abstracts' as a;
+
+
+@mixin flex {
+    display: flex;
+}
+
+.main-content-container {
+    @include flex;
+    justify-content: center;
+}
+
+.blog-content {
+    @include a.max-width-600
+}
