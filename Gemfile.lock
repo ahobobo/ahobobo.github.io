@@ -71,6 +71,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
+  rake (~> 13.2)
 
 BUNDLED WITH
    2.5.15
