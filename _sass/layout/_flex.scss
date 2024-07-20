@@ -1,4 +1,3 @@
-@use './../abstracts' as a;
 
 
 @mixin flex {
@@ -11,5 +10,5 @@
 }
 
 .blog-content {
-    @include a.max-width-600
+    @include max-width-600
 }

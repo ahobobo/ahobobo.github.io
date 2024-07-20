@@ -1,6 +1,5 @@
-@use "./../abstracts" as a;
 
 * {
-    background-color: a.$background-color;
-    color: a.$primary-color;
+    background-color: $background-color;
+    color: $primary-color;
 }
