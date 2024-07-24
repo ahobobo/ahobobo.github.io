@@ -1,0 +1,42 @@
+/* var declarations */ 
+
+:root {
+    /* colors */
+    --black: black;
+    --white: white;
+    --red: maroon;
+    --orange: #ff6060;
+    --light-grey: #f5f5f5;
+    --dark-grey: #505050;
+    --grey: #c8c8c888;
+
+    /* fonts */
+    --font: Courier New, Verdana, Arial; 
+    --main-font-color: var(--black);
+    --link-color: var(--orange);
+    --font-size: medium;
+    --font-small: 6pt;
+    --font-bold: bold;
+    --bold-line-height: 200%;
+}
+
+/* global styles */
+
+* {
+    font-family: var(--font);
+    background-color: var(--white);
+}
+
+p {
+    color: var(--black);
+    font-size: var(--font-size);
+}
+
+strong {
+    font-weight: var(--font-bold);
+    line-height: var(--bold-line-height);
+}
+
+a {
+    color: var(--link-color);
+}
