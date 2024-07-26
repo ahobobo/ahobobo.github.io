@@ -1,6 +1,9 @@
-<nav>
+<nav class="nav">
+    <div>
+        <img  src="/assets/images/knight.png" />
+    </div>
 {% for item in site.data.navigation %}
-    <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>
+    <a href="{{ item.link }}" class="nav-btn {% if page.url == item.link %}nav-btn--current{% endif %}">
         {{ item.name }}
     </a>
 {% endfor %}
